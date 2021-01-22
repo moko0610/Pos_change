@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteY="56dp">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="180dp"
+            android:text="名前"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/Birth"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="248dp"
+            android:layout_marginTop="296dp"
+            android:text="生年月日"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/birth"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="532dp"
+            android:text="電話番号"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/birth3"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="248dp"
+            android:layout_marginTop="636dp"
+            android:text="パスワード"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/birth2"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="256dp"
+            android:layout_marginTop="436dp"
+            android:text="住所"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/Namebox"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:background="#E8E7E7"
+            tools:layout_editor_absoluteX="446dp"
+            tools:layout_editor_absoluteY="156dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="#E8E7E7"
+            tools:layout_editor_absoluteX="629dp"
+            tools:layout_editor_absoluteY="276dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="161dp"
+            android:layout_height="66dp"
+            android:background="#E8E7E7"
+            tools:layout_editor_absoluteX="438dp"
+            tools:layout_editor_absoluteY="280dp" />
+
+        <TextView
+            android:id="@+id/Month"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="月"
+            android:textColor="#000000"
+            tools:layout_editor_absoluteX="699dp"
+            tools:layout_editor_absoluteY="316dp" />
+
+        <TextView
+            android:id="@+id/month3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="年"
+            android:textColor="#000000"
+            tools:layout_editor_absoluteX="599dp"
+            tools:layout_editor_absoluteY="316dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="#E8E7E7"
+            tools:layout_editor_absoluteX="729dp"
+            tools:layout_editor_absoluteY="276dp" />
+
+        <TextView
+            android:id="@+id/Date"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="日"
+            android:textColor="#000000"
+            tools:layout_editor_absoluteX="799dp"
+            tools:layout_editor_absoluteY="316dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPostalAddress"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPostalAddress"
+            tools:layout_editor_absoluteX="431dp"
+            tools:layout_editor_absoluteY="420dp" />
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            tools:layout_editor_absoluteX="438dp"
+            tools:layout_editor_absoluteY="525dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="431dp"
+            tools:layout_editor_absoluteY="629dp" />
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottomAppBar"
+            style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#A4C7DD"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="0dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="180dp"
+        android:text="名前"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Birth"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="248dp"
+        android:layout_marginTop="296dp"
+        android:text="生年月日"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
