@@ -12,18 +12,18 @@
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="1.0"
         tools:context=".MainActivity">
 
         <TextView
             android:id="@+id/name"
             android:layout_width="100dp"
             android:layout_height="50dp"
-            android:layout_marginStart="350dp"
-            android:layout_marginTop="80dp"
+            android:layout_marginStart="348dp"
+            android:layout_marginTop="50dp"
             android:gravity="center_vertical|center_horizontal"
             android:text="名前"
             android:textColor="#000000"
@@ -96,7 +96,7 @@
 
         <EditText
             android:id="@+id/editTextPhone"
-            android:layout_width="wrap_content"
+            android:layout_width="200dp"
             android:layout_height="50dp"
             android:layout_marginStart="100dp"
             android:layout_marginTop="70dp"
@@ -107,7 +107,7 @@
 
         <EditText
             android:id="@+id/editTextDate"
-            android:layout_width="wrap_content"
+            android:layout_width="200dp"
             android:layout_height="50dp"
             android:layout_marginStart="100dp"
             android:layout_marginTop="70dp"
@@ -118,7 +118,7 @@
 
         <EditText
             android:id="@+id/editTextTextPassword"
-            android:layout_width="wrap_content"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="100dp"
             android:layout_marginTop="70dp"
@@ -132,7 +132,7 @@
             android:layout_width="300dp"
             android:layout_height="50dp"
             android:layout_marginStart="100dp"
-            android:layout_marginTop="180dp"
+            android:layout_marginTop="150dp"
             android:ems="10"
             android:inputType="textPersonName"
             app:layout_constraintStart_toEndOf="@+id/name"
@@ -150,6 +150,19 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/change"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#BEC7E6"
+            android:text="変更"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
